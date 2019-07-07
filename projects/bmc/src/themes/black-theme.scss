@@ -1,0 +1,9 @@
+$bmc-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$bmc-black-accent: mat-palette($mat-blue-grey, 400);
+$bmc-black-warn: mat-palette($mat-red, 500);
+
+$bmc-black-theme: mat-dark-theme(
+  $bmc-black-primary,
+  $bmc-black-accent,
+  $bmc-black-warn
+);
