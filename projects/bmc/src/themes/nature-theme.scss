@@ -1,9 +1,0 @@
-$bmc-nature-primary: mat-palette($mat-brown, 700, 300, 900);
-$bmc-nature-accent: mat-palette($mat-deep-purple, 300);
-$bmc-nature-warn: mat-palette($mat-red, 600);
-
-$bmc-nature-theme: mat-light-theme(
-  $bmc-nature-primary,
-  $bmc-nature-accent,
-  $bmc-nature-warn
-);

@@ -1,9 +1,0 @@
-$bmc-light-primary: mat-palette($mat-grey, 200, 500, 300);
-$bmc-light-accent: mat-palette($mat-brown, 200);
-$bmc-light-warn: mat-palette($mat-deep-orange, 200);
-
-$bmc-light-theme: mat-light-theme(
-  $bmc-light-primary,
-  $bmc-light-accent,
-  $bmc-light-warn
-);
