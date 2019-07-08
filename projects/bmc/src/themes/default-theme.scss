@@ -1,5 +1,5 @@
-$bmc-primary: mat-palette($mat-indigo, 800, 300, 900);
-$bmc-accent: mat-palette($mat-light-blue);
-$bmc-warn: mat-palette($mat-pink, 600);
+$bmc-primary: mat-palette($mat-grey, 100, 800, 200);
+$bmc-accent: mat-palette($mat-blue, 700);
+$bmc-warn: mat-palette($mat-red, 800);
 
 $bmc-theme: mat-light-theme($bmc-primary, $bmc-accent, $bmc-warn);
