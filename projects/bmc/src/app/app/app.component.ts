@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
   version = env.versions.app;
   year = new Date().getFullYear();
   logo = require('../../assets/logo.png');
-  languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he'];
+  languages = ['en', 'ro', 'de', 'fr'];
   navigation = [
     { link: 'about', label: 'bmc.menu.about' },
     { link: 'feature-list', label: 'bmc.menu.features' },
