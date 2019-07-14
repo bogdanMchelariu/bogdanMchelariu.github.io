@@ -1,17 +1,12 @@
 {
-  "bmc.about.change-theme": "Change Theme",
-  "bmc.about.check-blogs": "or check blogs about",
-  "bmc.about.contributors.description1": "Want to start contributing to open source with Angular?",
-  "bmc.about.contributors.description2": "Leave your mark and join the growing team of contributors!",
-  "bmc.about.contributors.description3": "Get started by having a look on ",
-  "bmc.about.contributors.description4": " and ",
-  "bmc.about.contributors.guide": "Contributor guide",
-  "bmc.about.contributors.issues": "open issues",
-  "bmc.about.contributors.title": "Contributors",
-  "bmc.about.get-notified.description": "a Twitter bot that helps you to stay up to date with releases of popular frontend frameworks & libraries!",
-  "bmc.about.get-notified.follow": "Follow",
-  "bmc.about.get-notified.title": "Get notified about new releases",
-  "bmc.about.get-started": "Get started",
+  "bmc.about.greeting" : "Hi there!",
+  "bmc.about.who-am-i": "Who am I ?",
+  "bmc.about.who-am-i.description": "My name is Ives van Hoorne. I'm 22 years, 6 months and 1745131 seconds old and live in Enschede, The Netherlands. \n\nI'm an ambitious developer, passionate about new technology and its capabilities. I am inspired by fast-growing companies and hope to become the lead of one in the future.",
+
+  "bmc.about.skills": "Skills",
+  "bmc.about.projects": "Projects",
+
+
   "bmc.features.angular": "Modern powerful framework",
   "bmc.features.angular-cli": "A command line interface for Angular",
   "bmc.features.angular-material": "Material design component library",
@@ -29,14 +24,14 @@
   "bmc.features.themes.title": "Themes",
   "bmc.features.title": "Features",
   "bmc.features.typescript": "Superior developer experience, code completion, refactoring and less bugs",
-  "bmc.footer.changelog": "Show changelog",
+  "bmc.footer.changelog": "Current version",
   "bmc.header.github": "Project Github Repository",
+
   "bmc.menu.about": "About",
   "bmc.menu.examples": "Examples",
   "bmc.menu.features": "Features",
-  "bmc.menu.login": "Sign in",
-  "bmc.menu.logout": "Logout",
   "bmc.menu.settings": "Settings",
+
   "bmc.settings.animations.elements": "Navigation page elements slide up",
   "bmc.settings.animations.page": "Navigation whole page transition",
   "bmc.settings.animations.title": "Animations",
@@ -59,6 +54,6 @@
   "bmc.settings.themes.sticky-header": "Sticky header",
   "bmc.settings.themes.title": "Themes",
   "bmc.settings.title": "Settings",
-  "bmc.title.long": "Angular NgRx Material Starter",
-  "bmc.title.short": "Angular Starter"
+  "bmc.title.long": "Bogdan Mihai Chelariu",
+  "bmc.title.short": "Bogdan Chelariu"
 }
