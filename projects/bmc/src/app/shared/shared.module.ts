@@ -24,6 +24,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatSliderModule } from '@angular/material/';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+import { InViewportModule } from '@thisissoon/angular-inviewport';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -51,7 +54,9 @@ import {
   faWindowMaximize,
   faStream,
   faBook,
-  faEnvelope
+  faEnvelope,
+  faArrowDown,
+  faClipboardCheck
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faGithub,
@@ -59,7 +64,15 @@ import {
   faTwitter,
   faInstagram,
   faYoutube,
-  faLinkedin
+  faLinkedin,
+  faJs,
+  faHtml5,
+  faAngular,
+  faMicrosoft,
+  faGitAlt,
+  faGitlab,
+  faCss3Alt,
+  faReact
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
@@ -92,7 +105,17 @@ library.add(
   faWindowMaximize,
   faStream,
   faBook,
-  faEnvelope
+  faEnvelope,
+  faArrowDown,
+  faJs,
+  faHtml5,
+  faCss3Alt,
+  faAngular,
+  faMicrosoft,
+  faGitAlt,
+  faGitlab,
+  faReact,
+  faClipboardCheck
 );
 
 import { BigInputComponent } from './big-input/big-input/big-input.component';
@@ -123,8 +146,10 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
     MatSnackBarModule,
     MatSlideToggleModule,
     MatDividerModule,
+    MatProgressBarModule,
 
-    FontAwesomeModule
+    FontAwesomeModule,
+    InViewportModule
   ],
   declarations: [
     BigInputComponent,
@@ -158,12 +183,14 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
     MatSliderModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatProgressBarModule,
 
     FontAwesomeModule,
 
     BigInputComponent,
     BigInputActionComponent,
-    RtlSupportDirective
+    RtlSupportDirective,
+    InViewportModule
   ]
 })
 export class SharedModule {}

@@ -1,18 +1,54 @@
-<div class="background">
-  <div class="gradient">
-    <div class="container">
-        <div class="row">
-          <div class="col-3 col-sm-6 col-md-6 col-lg-8"></div>
-          <div class="col-9 col-sm-6 col-md-6 col-lg-4">
-              <h1>{{ 'bmc.about.greeting' | translate }}</h1>
-
-              <div class="get-started" [ngClass]="routeAnimationsElements">
-                <h2>{{ 'bmc.about.who-am-i' | translate }}</h2>
-                <p rtl>{{ 'bmc.about.who-am-i.description' | translate }}</p>
-              </div>  
-          </div>
-
+<div class="intro">
+  <div class="container d-flex flex-column justify-content-around">
+    <div class="row">
+      <div class="col-3 col-sm-6 col-md-6 col-lg-8"></div>
+      <div class="col-9 col-sm-6 col-md-6 col-lg-4">
+        <h1>{{ 'bmc.about.greeting' | translate }}</h1>
+        <div class="introduction" [ngClass]="routeAnimationsElements">
+          <h2>{{ 'bmc.about.who-am-i' | translate }}</h2>
+          <p rtl>{{ 'bmc.about.who-am-i.description' | translate }}</p>
+        </div>
       </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <a
+        mat-fab
+        class="actions-main"
+        color="accent"
+        (click)="scrollToSkills()"
+        [ngClass]="routeAnimationsElements"
+      >
+        <fa-icon icon="arrow-down"></fa-icon>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="skills">
+  <div class="container">
+    <mat-card>
+      <div
+        class="d-flex justify-content-center"
+        [ngClass]="routeAnimationsElements"
+        snInViewport
+        (inViewportChange)="onInViewportChange($event)"
+      >
+        <h2>{{ 'bmc.about.skills' | translate }}</h2>
+      </div>
+      <bmc-progress
+        *ngFor="let skill of skills"
+        [icon]="skill.icon"
+        [skill]="skill.skill"
+        [level]="skill.level"
+      ></bmc-progress>
+    </mat-card>
+
+    <div class="row d-flex justify-content-center mt-5 pb-5">
+      <a mat-raised-button color="accent" [ngClass]="routeAnimationsElements">
+        <fa-icon [icon]="['fas', 'clipboard-check']"></fa-icon>
+        {{ 'bmc.about.projects' | translate }}
+      </a>
     </div>
   </div>
 </div>

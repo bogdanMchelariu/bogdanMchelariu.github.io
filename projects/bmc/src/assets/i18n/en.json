@@ -3,6 +3,9 @@
   "bmc.about.who-am-i": "Who am I ?",
   "bmc.about.who-am-i.description": "My name is Ives van Hoorne. I'm 22 years, 6 months and 1745131 seconds old and live in Enschede, The Netherlands. \n\nI'm an ambitious developer, passionate about new technology and its capabilities. I am inspired by fast-growing companies and hope to become the lead of one in the future.",
 
+  "bmc.about.skills": "Skills",
+  "bmc.about.projects": "Projects",
+
 
   "bmc.features.angular": "Modern powerful framework",
   "bmc.features.angular-cli": "A command line interface for Angular",

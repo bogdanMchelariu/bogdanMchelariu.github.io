@@ -5,57 +5,48 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
 }
-
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-
-.background {
-  padding: 80px 0 80px 0;
-  position: relative;
-
-
-
-  .get-started {
-    max-width: 700px;
-    margin: 50px auto;
-    letter-spacing: 0.01px;
-    overflow-wrap: break-word;
-    z-index: 1;
-    overflow: hidden;
-
-    p{
-      white-space: pre-line;
+.intro {
+  height: calc(100vh - 64px);
+  color: #f2f2f2;
+  .container {
+    height: inherit;
+    .row {
+      padding-top: 80px;
+      .introduction {
+        max-width: 700px;
+        margin: 50px auto;
+        letter-spacing: 0.01px;
+        overflow-wrap: break-word;
+        z-index: 1;
+        overflow: hidden;
+        p {
+          white-space: pre-line;
+        }
+      }
     }
   }
-
   &::before {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: url('../../../../assets/intro.jpg') no-repeat center center fixed;
+    background: url('../../../../assets/main.webp') no-repeat center top fixed;
     background-size: cover;
     opacity: 1;
     content: '';
     z-index: 0;
   }
+}
 
-  .gradient {
-    &::before {
-      position: absolute;
-      top: 51%;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      content: '';
-      z-index: 0;
-    }
-  }
-
+.skills {
+  background-color: #333333;
   .container {
-    position: relative;
+    padding-top: 64px;
+    min-height: calc(100vh - 200px);
   }
 }

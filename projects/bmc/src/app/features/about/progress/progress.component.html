@@ -1,0 +1,14 @@
+<div class="container skills-container">
+  <div class="row">
+    <div class="col-3 col-lg-1 d-flex justify-content-center align-items-center">
+      <fa-icon size="3x" [icon]="['fab', icon]"></fa-icon>
+    </div>
+    <div class="col-lg-1 d-none d-lg-flex align-items-center">
+      {{ skill }}
+    </div>
+    <div class="col-9 col-lg-10 my-auto">
+      <mat-progress-bar color="accent" mode="determinate" [value]="level">
+      </mat-progress-bar>
+    </div>
+  </div>
+</div>
