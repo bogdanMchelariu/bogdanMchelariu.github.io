@@ -1,8 +1,8 @@
 <div class="intro">
   <div class="container d-flex flex-column justify-content-around">
     <div class="row">
-      <div class="col-3 col-sm-6 col-md-6 col-lg-8"></div>
-      <div class="col-9 col-sm-6 col-md-6 col-lg-4">
+      <div class="col-1 col-sm-6 col-md-6 col-lg-8"></div>
+      <div class="col-11 col-sm-6 col-md-6 col-lg-4">
         <h1>{{ 'bmc.about.greeting' | translate }}</h1>
         <div class="introduction" [ngClass]="routeAnimationsElements">
           <h2>{{ 'bmc.about.who-am-i' | translate }}</h2>
@@ -44,7 +44,7 @@
       ></bmc-progress>
     </mat-card>
 
-    <div class="row d-flex justify-content-center mt-5 pb-5">
+    <div class="row d-flex justify-content-center project-button-container">
       <a mat-raised-button color="accent" [ngClass]="routeAnimationsElements">
         <fa-icon [icon]="['fas', 'clipboard-check']"></fa-icon>
         {{ 'bmc.about.projects' | translate }}

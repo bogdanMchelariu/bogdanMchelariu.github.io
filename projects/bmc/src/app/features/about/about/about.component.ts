@@ -31,9 +31,9 @@ export class AboutComponent implements OnInit {
 
     this.inViewportChange.subscribe((inViewport: boolean) => {
       // if (inViewport === true) {
-        // this.skills.forEach(skill => {
-          // skill.level = 0;
-        // });
+      // this.skills.forEach(skill => {
+      // skill.level = 0;
+      // });
       // }
       console.log('in view', this.skills);
     });
@@ -41,7 +41,7 @@ export class AboutComponent implements OnInit {
 
   scrollToSkills() {
     const element = document.getElementsByClassName('skills')[0];
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth', block: 'start'});
   }
 
   onInViewportChange(inViewport: boolean) {

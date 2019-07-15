@@ -35,9 +35,11 @@ h2 {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url('../../../../assets/main.webp') no-repeat center top fixed;
+    background: url('../../../../assets/main.webp') no-repeat;
     background-size: cover;
-    opacity: 1;
+    background-position-x: right;
+    background-position-y: top;
+    opacity: 0.85;
     content: '';
     z-index: 0;
   }
@@ -47,6 +49,9 @@ h2 {
   background-color: #333333;
   .container {
     padding-top: 64px;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 212px);
+    .project-button-container {
+      padding-top: 12px;
+    }
   }
 }
